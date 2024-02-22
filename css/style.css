@@ -1,0 +1,145 @@
+*{
+    cursor: url("../img/pinkcursor.png"), auto; 
+}
+body {
+    background-color: powderblue;
+    background-image: url("../img/1134-purple-to-blue.jpg");
+    font-family: sans-serif;
+    /*cursor: url("../img/pinkcursor.png"), auto! important; */
+
+}
+
+/*.fairypic{
+    
+    width: 10%;
+    height: 10%;
+}
+<img src="img/importantfairies.png" 
+alt="hi" class="fairypic"> */
+
+.page1 {
+    background-image: url("../img/woodlandfairieslarge.jpg");
+    border: 20px solid rgb(160, 208, 196);
+    border-style: ridge;
+
+    text-align: center;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.feedwelcome{
+        text-align: center;
+        color: black;
+        font-size: 30px;
+        border: 5px solid rgb(160, 208, 196);
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+        padding: 40px;
+        background-color: white;
+}
+
+.mushroomlogo {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(255, 244, 149);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    border: 5px solid rgb(160, 208, 196);
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    padding: 40px;
+    background-color: white;
+
+}
+
+p {
+    color: black; font-size: 35px;
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:last baseline;
+    border: 5px;
+    border-color: rgb(127, 47, 201);
+    background-color: aliceblue;
+    border-style: solid;
+    text-align: left;
+    margin-right: 60%;
+    color: rgb(127, 47, 201);
+
+
+
+}
+
+.tinyswanlogo {
+    width: 10%;
+    height: 10%;
+
+}
+
+.outline {
+    border: 10px;
+    border-color: rgb(127, 47, 201);
+    background-image: url("../img/m1422_fairy_dream.jpg");
+    border-style: solid;
+    margin: 55px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.textingmode{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: none;
+    
+}
+
+.aligngroup {
+    display: block;
+    width: 30%;
+    margin-right: 50%;
+    border: 30px solid rgb(174, 212, 219);
+    border-style: double;
+    background-color: white;
+   /*background-image: ("tinyswanlogo");*/
+    
+
+
+}
+
+.topofsecondpage {
+    border: 10px solid aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 15px;
+    /*background-color: rgb(255, 244, 149); */
+    background-image: url("../img/bluefairies.jpg");
+    border-style: groove; 
+
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: none;
+
+}
+
+
+
+    /*<img src="img/originalswanproject.gif" alt="the feed logo" class="tinyswanlogo"> */
