@@ -2,8 +2,8 @@
     cursor: url("../img/pinkcursor.png"), auto; 
 }
 body {
-    background-color: powderblue;
-    background-image: url("../img/1134-purple-to-blue.jpg");
+    background-color: rgb(255, 74, 74);
+    background-image: url("../img/butterfly+fairy1.gif");
     font-family: sans-serif;
     /*cursor: url("../img/pinkcursor.png"), auto! important; */
 
@@ -32,7 +32,7 @@ alt="hi" class="fairypic"> */
         text-align: center;
         color: black;
         font-size: 30px;
-        border: 5px solid rgb(160, 208, 196);
+        border: 10px solid rgb(160, 208, 196);
         margin-left: auto;
         margin-right: auto;
         width: 700px;
@@ -69,16 +69,13 @@ p {
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    justify-content:last baseline;
     border: 5px;
-    border-color: rgb(127, 47, 201);
+    border-color: aliceblue;
     background-color: aliceblue;
-    border-style: solid;
+    border-style: groove;
     text-align: left;
-    margin-right: 60%;
-    color: rgb(127, 47, 201);
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
 
 
 
@@ -91,14 +88,34 @@ ul {
 }
 
 .outline {
-    border: 10px;
-    border-color: rgb(127, 47, 201);
-    background-image: url("../img/m1422_fairy_dream.jpg");
+    border: 20px;
+    border-color: aliceblue;
+    background-color: rgb(228, 246, 255,0.5);
     border-style: solid;
     margin: 55px;
     padding-left: 5%;
-    padding-top: 5%;
 }
+
+
+.aligngroup {
+    display: block;
+    background-color: white;
+    width: 30%;
+    margin-right: 10%;
+    border: 20px solid aliceblue;
+    border-style: groove;
+   /*background-image: ("tinyswanlogo");*/
+    
+
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
 
 .textingmode{
     text-align: center;
@@ -109,18 +126,7 @@ ul {
     
 }
 
-.aligngroup {
-    display: block;
-    width: 30%;
-    margin-right: 50%;
-    border: 30px solid rgb(174, 212, 219);
-    border-style: double;
-    background-color: white;
-   /*background-image: ("tinyswanlogo");*/
-    
 
-
-}
 
 .topofsecondpage {
     border: 10px solid aliceblue;
@@ -129,7 +135,7 @@ ul {
     width: 300px;
     padding: 15px;
     /*background-color: rgb(255, 244, 149); */
-    background-image: url("../img/bluefairies.jpg");
+    background-image: url("../img/whimsicalwatercolorfairies\ andtoadstools\ _\ medium\ _\ fairycore\ magical\ woodland\ forest\ with\ fairy\ dust\,\ pixies\ and\ mushrooms-1.jpg");
     border-style: groove; 
 
     text-align: center;
@@ -143,3 +149,12 @@ ul {
 
 
     /*<img src="img/originalswanproject.gif" alt="the feed logo" class="tinyswanlogo"> */
+
+
+
+/* <h2> 
+    <img src="..img/butterfly+fairy1.gif" alt="gifwithbutterfly"
+   class="gifwithbutterfly">
+
+
+</h2> */
