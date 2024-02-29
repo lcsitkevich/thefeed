@@ -2,8 +2,8 @@
     cursor: url("../img/pinkcursor.png"), auto; 
 }
 body {
-    background-color: rgb(255, 74, 74);
-    background-image: url("../img/butterfly+fairy1.gif");
+    background-color: rgb(194, 224, 198);
+    /*background-image: url("../img/butterfly+fairy1.gif"); */
     font-family: sans-serif;
     /*cursor: url("../img/pinkcursor.png"), auto! important; */
 
@@ -32,7 +32,7 @@ alt="hi" class="fairypic"> */
         text-align: center;
         color: black;
         font-size: 30px;
-        border: 10px solid rgb(160, 208, 196);
+        border: 5px solid rgb(160, 208, 196);
         margin-left: auto;
         margin-right: auto;
         width: 700px;
@@ -53,7 +53,7 @@ h1 {
     text-align: center;
     color: black;
     font-size: 50px;
-    border: 5px solid rgb(160, 208, 196);
+    border: 5px solid rgb(164, 218, 204);
     margin-left: auto;
     margin-right: auto;
     width: 250px;
@@ -69,8 +69,8 @@ p {
 }
 
 ul {
-    border: 5px;
-    border-color: aliceblue;
+    border: 10px;
+    border-color: rgb(250, 245, 245);
     background-color: aliceblue;
     border-style: groove;
     text-align: left;
@@ -81,17 +81,18 @@ ul {
 
 }
 
-.tinyswanlogo {
-    width: 10%;
-    height: 10%;
+.shoppingbags{
+    width: 40%;
+    height: 30%;
+    margin-left: 70px;
 
 }
 
 .outline {
-    border: 20px;
-    border-color: aliceblue;
-    background-color: rgb(228, 246, 255,0.5);
-    border-style: solid;
+    border: 10px;
+    border-image: url(../img/woodlandfairieslarge.jpg) 4% round;
+    background-color: #e1efe0;
+    border-style: double;
     margin: 55px;
     padding-left: 5%;
 }
@@ -102,9 +103,9 @@ ul {
     background-color: white;
     width: 30%;
     margin-right: 10%;
-    border: 20px solid aliceblue;
-    border-style: groove;
+    border: 10px solid rgb(249, 249, 249);
    /*background-image: ("tinyswanlogo");*/
+   border-style: groove;
     
 
 
@@ -113,7 +114,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -129,14 +130,14 @@ ul {
 
 
 .topofsecondpage {
-    border: 10px solid aliceblue;
+    border: 5px solid rgb(255, 243, 183);
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     padding: 15px;
     /*background-color: rgb(255, 244, 149); */
-    background-image: url("../img/whimsicalwatercolorfairies\ andtoadstools\ _\ medium\ _\ fairycore\ magical\ woodland\ forest\ with\ fairy\ dust\,\ pixies\ and\ mushrooms-1.jpg");
-    border-style: groove; 
+    background-color: transparent;
+    border-style:dotted;
 
     text-align: center;
     font-family: "Pacifico", cursive;
